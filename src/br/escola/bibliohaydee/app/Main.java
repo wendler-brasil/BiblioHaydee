@@ -8,10 +8,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Livro livro = new Livro();
+        Livro livro = new Livro("Wendler", 12843, 2010, "Masculino", true);
 
 
-        System.out.println(livro);
+        System.out.print(livro.toString());
 
     }
 
